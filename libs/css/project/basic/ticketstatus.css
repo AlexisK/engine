@@ -1,0 +1,19 @@
+
+.pr_ticketstatus {
+    display: inline-block;
+    padding: 0px 10px;
+    color:%white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+.pr_ticketstatus.big {
+    padding: 10px 20px;
+    font-size: 20px;
+}
+
+.pr_ticketstatus.bad     { background-color:%red; }
+.pr_ticketstatus.neutral { background-color:%grey; }
+.pr_ticketstatus.ok      { background-color:%blue; }
+.pr_ticketstatus.done    { background-color:%green; }

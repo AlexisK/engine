@@ -1,0 +1,279 @@
+.ava_cont {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	margin: 0 5.6% 0 0 !important;
+    float: left;
+}
+.ava {
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+.ava_over {
+	opacity: 0;
+	position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    transition: opacity 0.2s;
+}
+.ava_cont:hover > .ava_over {
+	opacity: 1;
+}
+.ava_input {
+	width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.pr_personalInfoBlock {
+	margin-bottom: 36px;
+}
+.profile_info_cont {
+	float: left;
+}
+.email {
+	float: left;
+	margin-right: 15px;
+	font-family: 'open_sansregular';
+	font-size: 14px;	
+}
+.is_verified {
+	float: left;
+	text-transform: lowercase;
+	font-family: 'open_sanslight';
+	font-size: 14px;
+}
+
+.is_verified.unverified {
+	color: %paperRed;
+}
+.is_verified.verified {
+	color: %paperBlue;
+}
+.is_verified.admin {
+	color: %paperPurple;
+}
+.profile_info_cont .verification_data {
+	overflow: visible;
+	max-height: 16px;
+	//-margin-top: 10px;
+}
+.profile_info_cont .verification_data > * {
+	margin-top: 10px;
+}
+.profile_info_cont .verification_data > * {
+	float: left;
+	margin-right: 15px;
+}
+.profile_info_cont .verification_data .profile_geo {
+	max-width: 150px;
+    overflow: hidden;
+}
+.profile_info_cont .verification_data .profile_name {
+    max-width: 200px;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-family: 'open_sansbold';
+    font-size: 11px;
+    line-height: 21px;
+}
+.profile_info_cont .verification_data .profile_birthdate,
+.profile_info_cont .verification_data .profile_geo {
+	font-family: 'open_sansregular';
+	font-size: 14px;
+}
+
+
+.bonus_cont {
+	margin-top: 10px;
+}
+.bonus_cont > * {
+	float: left;
+}
+.bonus_cont .rect_scale {
+	margin-top: 3px;
+}
+.bonus_cont .bonus {
+	margin-right: 30px;
+}
+.bonus_cont .label_top {
+	font-family: 'open_sansregular';
+	font-size: 14px;
+}
+.bonus_cont .label_bottom {
+	font-family: 'open_sanslight';
+	font-size: 14px;
+}
+.bonus_cont .lvl_rect {
+	width: 11px;
+    height: 11px;
+    float: left;
+    background: %paperGreyBlock;
+	margin-right: 5px;
+}
+.lvl_rect.colored {
+	background: %paperBlue;
+}
+/* balance */
+.pr_userwallet {
+	font-family: 'open_sanssemibold';
+    font-size: 14px;
+    padding-top: 30px;
+}
+.mk_userwallet_wallets {
+	float: left;
+	width: 50%;
+	margin: 0;
+}
+.mk_wallets_wrap {
+	position: relative;
+	margin-bottom: 16px;
+}
+.mk_wallets_wrap .total {
+	width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 26px;
+    margin: auto;
+    height: 30px;
+    padding-left: 3%;
+}
+.mk_wallets_wrap .total span {
+	display: block;
+    margin-top: 8px;
+    float: left;
+    margin-right: 14px;
+}
+.mk_wallets_wrap .total .cab-settings-trigger {
+	margin-top: 8px;
+	width: 45px;
+	padding: 0;
+	background-position: right top 5px;
+    background-size: 10px 10px;
+}
+.mk_wallets_wrap .total .total-cont {
+	display: inline-block;
+    position: relative;
+}
+.mk_wallets_wrap .total .sys-drop-down {
+	top: 0;
+    padding-top: 25px;
+    right: -6px;
+    left: auto;
+    padding-left: 5px;
+    width: 57px;
+    box-shadow: none;
+    border: 1px solid #b4b4b4;
+}
+.mk_wallets_wrap .total .sys-drop-down.closed {
+	border: none;
+}
+.mk_wallets_wrap .total .sys-drop-down li {
+	padding-top: 1px;
+	cursor: pointer;
+}
+.mk_wallets_wrap .total .inp-block {
+    display: inline-block;
+    position: absolute;
+    margin: 0;
+    top: 0;
+    right: 0;
+}
+.mk_userwallet_wallets .col-3 {
+	margin-bottom: 20px;
+}
+.partners-text {
+	font-family: 'open_sanslight';
+    font-size: 14px;
+}
+.partners-text * {
+	color: %greyRatesTable !important;
+}
+.mk_partners_link {
+	border: 1px solid %paperGreyLight;
+	font-size: 14px;
+    font-family: 'open_sanslight';
+    color: %paperBlue;
+    padding: 5px 20px;
+    margin: 17px 0;
+}
+
+@media screen and (max-width: %wrapperS5) {
+	.mk_tab .detailedCalc {
+		padding-left: 12.5%;
+    	padding-right: 14%;
+	}
+	.paper-cont .jCalc {
+		max-width: none;
+	}
+	.ava_cont {
+		width: 34.4%;
+		height: auto;
+    	margin-right: 8.6% !important;
+	}
+	.ava_cont > * {
+		width: 100%;
+    	height: auto;
+    	border-radius: 50%;
+	}
+	.ava_cont > .ava_input {
+		height: 100%;
+	}
+	.profile_info_cont {
+		width: 57%;
+	}
+	.is_verified,
+	.verification_data > *,
+	.bonus_cont > * {
+		width: 100%;
+	}
+	.verification_data {
+		margin-top: 5px;
+	}
+	.verification_data > * {
+		margin-top: 0 !important;
+	}
+	.bonus_cont {
+		margin-top: 5px;
+	}
+	.bonus_cont > div:nth-child(2) {
+		margin-top: 5px;
+	}
+	.bonus_cont .label_bottom {
+		display: none;
+	}
+	.mk_wallets_wrap {
+		margin-bottom: 20px;
+	}
+	.mk_userwallet_wallets,
+	.mk_wallets_wrap .total {
+		width: 100%;
+    	float: none;
+	}
+	.mk_wallets_wrap .total {
+		position: relative;
+	}
+	.mk_userwallet_wallets .col-3 {
+		width: 50%;
+		text-align: center;
+		font-family: 'open_sanslight';
+	}
+	.pr_userwallet {
+		padding-top: 16px;
+	}
+	.mk_partners_link {
+    	padding: 10px 4px;
+    	overflow: hidden;
+	}
+}
+
+
+
+
+

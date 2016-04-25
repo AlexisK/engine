@@ -1,0 +1,11 @@
+
+.pr_tabs .heading > .asBtn { color:%grey; }
+
+.pr_tabs .heading > .asBtn > .str { white-space: nowrap; }
+
+.pr_tabs .heading > .asBtn:hover,
+.pr_tabs .heading > .asBtn.active {
+    color:%greyDark;
+}
+
+.pr_tabs .heading > .asBtn svg { fill:%grey; }

@@ -1,0 +1,429 @@
+.jCalc {
+    width: 100%;
+    font-size: 18px;
+}
+
+.jCalc > .detailedCalc { width: 100%; }
+
+.jCalc > .detailedCalc > .lft,
+.jCalc > .detailedCalc > .rgt {
+    width: 50%; min-height: 20px;
+    float: left;
+}
+
+.jCalc > .detailedCalc > .sum {
+    max-width: 350px;
+    margin: 0px auto;
+}
+
+.jCalc > .detailedCalc > .heading {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color:%greyLight;
+}
+
+
+.jCalc > .detailedCalc > .sum > * {
+    display: block;
+    margin: 20px auto;
+}
+.jCalc > .detailedCalc > * > a.posNext {
+    width: 65%;
+    float: left;
+    border-radius: 4px 0px 0px 4px;
+    border-right: 1px dashed %white;
+}
+.jCalc > .detailedCalc > * > a.posNext + a {
+    margin-left: 65%;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.jCalc > .detailedCalc > * > a {
+    display: block;
+    min-height: 40px;
+    line-height: 40px;
+    text-align: center;
+    
+    background-color:%blue;
+    color:%white;
+    border-radius: 4px;
+}
+
+.jCalc > .detailedCalc > * > a.exchange-blocked,
+.jCalc > .detailedCalc > * > a.exchange-blocked:hover {
+    background-color:%grey;
+    color:%white;
+    cursor: default;
+    box-shadow: 0px 0px 0px %black;
+}
+
+.jCalc > .detailedCalc > .lft > a,
+.jCalc > .detailedCalc > .rgt > a { margin-top: 10px; }
+
+.jCalc > .detailedCalc > * > a.green {
+    background-color:%green;
+}
+
+.jCalc > .detailedCalc > * > a:hover {
+    background-color:%white;
+    color:%black;
+    box-shadow: 1px 1px 3px %grey;
+}
+
+
+
+.jCalc > .detailedCalc > * > div { margin: 10px; }
+
+
+
+
+//-.jCalc .txt { min-height: 24px; }
+.jCalc > .detailedCalc > * > .desc { min-height: 40px; }
+.jCalc > .detailedCalc > * > .spacer { height: 24px; }
+
+.jCalc .txt.small,
+.jCalc > .detailedCalc > * > .desc {
+    font-size: 14px;
+    color:%black;
+}
+
+
+.jCalc h1 {
+    display: block;
+    width: auto; max-width: none!important;
+    margin: 0px!important;
+    text-align: center;
+    font-size: 26px;
+}
+
+//-.jCalc input[disabled] { background-color:%greyLight!important; }
+.jCalc input.isValid   { background-color:%green!important; }
+.jCalc input.notValid  { background-color:%red!important; }
+
+
+
+
+
+
+
+.jCalc .ch-block {
+    position: relative;
+    min-height: 40px;
+}
+
+.jCalc .ch-block > input,
+.jCalc .ch-block > .jBool {
+    width: 38px;
+    margin: 10px;
+    float: left;
+}
+
+.jCalc .ch-block > .str {
+    margin-left: 60px;
+    padding: 10px 0px;
+}
+
+
+
+
+.jCalc .inp-block {
+    position: relative;
+    height: 40px;
+    border: 1px solid %grey;
+    background: %white;
+    border-radius: 2px;
+    overflow: visible;
+}
+.jCalc .inp-block.disabled { background: %greyLight; }
+
+.jCalc .inp-block.t2 {
+    height: 37px;
+    margin-top: -14px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+.jCalc .inp-block > * {
+    position: absolute;
+}
+
+.jCalc .inp-block > .label {
+    top: 0px; bottom: 0px;
+    width: 60px; min-width: 40px;
+    text-align: center;
+    line-height: 38px;
+}
+.jCalc .inp-block > .label.wide { width: 120px; }
+.jCalc .inp-block > .label.left { left: 0px; }
+.jCalc .inp-block > .label.left ~ .label.left { left: 60px; }
+.jCalc .inp-block > .label.right { right: 0px; }
+.jCalc .inp-block > .label.right ~ .label.right: { right: 60px; }
+
+.jCalc .inp-block > .label.left ~ .inp { left: 60px; }
+.jCalc .inp-block > .label.left.wide ~ .inp,
+.jCalc .inp-block > .label.left ~ .label.left ~ .inp { left: 120px; }
+.jCalc .inp-block > .label.right ~ .inp { right: 60px; }
+.jCalc .inp-block > .label.right.wide ~ .inp,
+.jCalc .inp-block > .label.right ~ .label.right ~ .inp { right: 120px; }
+
+
+.jCalc .inp-block > .label > .psIco {
+    width: 43px; height: 31px;
+    margin-top: 4px;
+}
+
+.jCalc .inp-block > .asBtn {
+    background-color:%white;
+    color:%black;
+    line-height: 38px;
+}
+.jCalc .inp-block > .asBtn:hover,
+.jCalc .inp-block > .asBtn.active {
+    background-color:%blue;
+    color:%white;
+}
+
+.jCalc .inp-block .jDropdown > .jHead { line-height: 30px; }
+.jCalc .inp-block .jDropdown .jFilt {
+    text-align: left;
+    font-size: 16px;
+}
+
+
+
+.jCalc .inp-block > .inp {
+    top: 0px; right: 0px; bottom: 0px; left: 0px;
+}
+
+.jCalc .inp-block.transact > .inp { right: 160px; }
+
+.jCalc .inp-block > .inp > * {
+    display: block;
+    width: 100%; height: 38px;
+    padding: 5px 20px;
+    line-height: 28px;
+    font-size: 20px;
+    background: none;
+    border: none;
+    box-sizing: border-box;
+}
+.jCalc .inp-block.t2 > .inp > * {
+    padding-top: 2px;
+}
+
+.jCalc .inp-block > img {
+    top: 0px; right: 100px;
+    width: 60px; height: 38px;
+    padding: 3.5px 8.5px;
+    border-left: 1px solid %grey;
+}
+.jCalc .inp-block.t2 > img {
+    height: 35px;
+    padding-top: 0.5px;
+}
+
+
+.jCalc .inp-block > .cur {
+    top: 0px; right: 0px; bottom: 0px;
+    width: 100px;
+    line-height: 38px;
+    text-align: center;
+    border-radius: 0px 3px 3px 0px;
+}
+
+
+
+.jCalc .inp-block > table {
+    display: block;
+    top: 36px; right: -1px;
+    min-width: 159px;
+    background-color:%white;
+    border: 0px solid %grey;
+    border-width: 0px 1px 1px 1px;
+    border-radius: 0px 0px 4px 4px;
+    border-spacing: 0px;
+    z-index: 2;
+}
+
+.jCalc .inp-block > table.closed {
+    display: none;
+}
+
+
+
+.jCalc .inp-block > table td {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+
+.jCalc .inp-block > table .sys-image {
+    float: none;
+    margin: 0px auto;
+}
+
+.jCalc .inp-block > table .system-name {
+    font-size: 16px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.jCalc .inp-block > table td img { display: block; margin: 0px auto; }
+.jCalc .inp-block > table td img.color { display: none; }
+.jCalc .inp-block > table td:hover img.bw { display: none; }
+.jCalc .inp-block > table td:hover img.color { display: block; }
+.jCalc .inp-block > table td:hover {
+    background-color:%greyLight2;
+    color:%black;
+}
+
+
+
+
+.jCalc .inp-block > img.selectable,
+.jCalc .inp-block > .cur.selectable { cursor: pointer; }
+
+
+.jCalc .inp-block > img.selectable:hover,
+.jCalc .inp-block > .cur.selectable:hover,
+
+
+
+
+.jCalc .inp-block.date-inp { max-width: 270px;}
+
+.jCalc .inp-block .dateinput-def { padding: 0px}
+.jCalc .inp-block .dateinput-def .jDropdown { border: none; }
+.jCalc .inp-block .dateinput-def .jHead {
+    min-height: 38px;
+    line-height: 38px;
+}
+.jCalc .inp-block .dateinput-def .jDropdown > .jBody { top: 38px; }
+
+.jCalc .inp-block .dateinput-def .jDropdown:nth-of-type(1) { width: 15%; }
+.jCalc .inp-block .dateinput-def .jDropdown:nth-of-type(2) { width: 55%; border: 0px dashed %grey; border-width: 0px 1px; }
+.jCalc .inp-block .dateinput-def .jDropdown:nth-of-type(3) { width: 30%; }
+//-.jCalc .inp-block .dateinput-def .jDropdown:hover { background-color:%greyLight; }
+
+.jCalc .inp-block .dateinput-def.isValid .jDropdown {
+    border-color: %paperBorderGreen!important;
+}
+.jCalc .inp-block .dateinput-def .jDropdown.active,
+.jCalc .inp-block .dateinput-def .jDropdown:hover,
+.jCalc .inp-block .dateinput-def .jDropdown.active .jBody {
+    border-color: %paperBlue!important;
+}
+.jCalc .mk_tstatus {
+    margin-left: 10px;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color:grey; 
+    color:%white;
+    white-space: nowrap;
+}
+
+.jCalc > .detailedCalc > .lft > .mk_tstatus,
+.jCalc > .detailedCalc > .rgt > .mk_tstatus{
+    height: 40px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.jCalc .mk_tstatus.status_50,
+.jCalc .mk_tstatus.status_100,
+.jCalc .mk_tstatus.status_120,
+.jCalc .mk_tstatus.status_150 { background-color:%warn; }
+.jCalc .mk_tstatus.status_-50,
+.jCalc .mk_tstatus.status_-60,
+.jCalc .mk_tstatus.status_60,
+.jCalc .mk_tstatus.status_70,
+.jCalc .mk_tstatus.status_110,
+.jCalc .mk_tstatus.status_160,
+.jCalc .mk_tstatus.status_170 { background-color:%red; }
+.jCalc .mk_tstatus.status_90,
+.jCalc .mk_tstatus.status_190,
+.jCalc .mk_tstatus.status_200,
+.jCalc .mk_tstatus.status_250 { background-color:%green; }
+
+.jCalc .mk_token {
+    word-break: break-all;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:%wrapperS5) {
+    .jCalc {
+        font-size: 16px;
+    }
+    
+    .jCalc .inp-block > .inp {
+        right: 130px;
+    }
+    
+    .jCalc .inp-block > img {
+        right: 80px;
+        width: 50px;
+        padding: 3.5px 3.5px;
+    }
+    
+    .jCalc .inp-block > .cur {
+        width: 80px;
+    }
+    
+    .jCalc .inp-block > table {
+        min-width: 131px;
+    }
+}
+
+@media (max-width:%wrapperS6) {
+    .jCalc > .detailedCalc > .lft,
+    .jCalc > .detailedCalc > .rgt {
+        width: 100%;
+        float: none;
+    }
+    
+    .jCalc > .detailedCalc > * > div {
+        margin: 10px 0px;
+    }
+    
+    .jCalc > .detailedCalc > * > .desc { min-height: auto; }
+    .jCalc > .detailedCalc > * > .spacer { display: none; }
+    .jCalc > .detailedCalc > * > a.posNext { margin-top: 0px; }
+    
+    .jCalc .inp-block > table .system-name { font-size: 14px; white-space:normal; }
+}
+
+
+@media (max-width:%wrapperS8) {
+    .jCalc .inp-block > .inp > input {
+        padding: 5px 10px;
+        font-size: 18px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

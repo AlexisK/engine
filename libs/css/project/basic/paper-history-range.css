@@ -1,0 +1,167 @@
+.history-range {
+	width: 45.4%;
+}
+.history-range .txt {
+	padding-left: 9%;
+}
+.history-range .inp-block .showBtn {
+	width: 34% !important;
+}
+.history-range .inp-block .inp {
+	float: right;
+	margin-right: 0 !important;
+	position: static !important;
+}
+.history-range .inp-block .inp:nth-child(2) {
+	width: 30%;
+}
+.history-range .inp-block .inp:nth-child(3) {
+	width: 27%;
+}
+.history-range .calendar-inp-cont {
+	padding: 0 !important;
+	border-width: 0 !important;
+}
+.history-range .calendar-represent {
+	padding: 0 10px;
+	width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-size: 14px !important;
+    font-family: 'open_sanslight';
+    border: 1px solid %paperBorderGreyDefault;
+    border-width: 1px 0 1px 1px;
+    cursor: pointer;
+}
+.history-range .calendar-dropdown {
+	top: initial;
+    left: initial;
+    position: absolute;
+    width: 57%;
+	display: none;
+	z-index: 10;
+	font-size: 12px;
+    font-family: 'open_sansregular';
+    background: %white;
+    border: 1px solid %paperBlue;
+    padding: 0px 0px 5px;
+    border-width: 0 1px 1px;
+}
+.history-range .inp:nth-child(2) .calendar-represent {
+	padding-left: 3px;
+	border-width: 1px 0 1px;
+}
+.history-range .inp:nth-child(2) .calendar-dropdown {
+	left: 8.3%;
+}
+.history-range .inp.active .calendar-represent {
+	border-width: 1px 0 0 1px;
+	border-color: %paperBlue;
+	color: %paperBlue;
+}
+.history-range .inp.active:nth-child(3) .calendar-represent {
+	border-width: 1px 1px 0 1px;
+}
+.history-range .inp.active .calendar-dropdown {
+	display: block;
+}
+
+.history-range .calendar-dropdown .calendar-head {
+	background: %paperBlue;
+	background-image: none !important;
+	height: 21px;
+}
+.history-range .calendar-dropdown .calendar-head > * {
+	height: 21px;
+	line-height: 13px;
+	font-size: 14px;
+    font-family: 'open_sansregular';
+    text-transform: lowercase;
+    padding-top: 3px;
+}
+.history-range .calendar-dropdown .calendar-head > .asBtn {
+	padding: 3px 0 0;
+}
+.history-range .calendar-dropdown .calendar-head .asBtn svg {
+	height: 13px;
+    width: auto;
+}
+.history-range .calendar-dropdown .calendar-head .asBtn:first-child svg {
+	margin-left: 14px;
+}
+.history-range .calendar-dropdown .calendar-head .asBtn:nth-child(2) svg {
+	margin-right: 14px;
+}
+.history-range .calendar-dropdown  table td {
+	border: none;
+	color: %greyRatesTable;
+	height: 22px;
+    line-height: 12px;
+    font-family: 'open_sanslight';
+}
+.history-range .calendar-dropdown  table td.curRange {
+	background: %paperGrey6;
+}
+
+.history-range .calendar-dropdown  table .wDay > td {
+	background: %white;
+	text-transform: uppercase;
+}
+.history-range .calendar-dropdown  table tr.cTime td.curDate,
+.history-range .calendar-dropdown  table tr.cTime td:hover {
+	background: %paperBlue;
+}
+
+@media screen and (max-width: %wrapperS5) {
+	.history-range {
+		width: 100%;
+	}
+	.history-range .txt {
+		padding-left: 0;
+	}
+	.history-range .inp-block {
+		height: auto !important;
+	}
+	.history-range .inp-block > .asBtn {
+		position: absolute !important;
+	    right: 0px;
+	    left: initial;
+	    top: 0px;
+	    z-index: 11;
+	    width: 34% !important;
+	}
+	.history-range .inp {
+		position: relative !important;
+		height: auto !important;
+		left: 0 !important;
+		margin-right: 0 !important;
+	}
+	.history-range .inp:nth-child(2) {
+		margin-right: 34% !important;
+		width: 38% !important;
+	}
+	.history-range .inp:nth-child(3) {
+		width: 28% !important;
+	}
+	.history-range .inp .calendar-inp-cont {
+		height: auto !important;
+	}
+	.history-range .calendar-dropdown {
+		position: absolute !important;
+		margin: 0 !important;
+		width: 100% !important;
+	}
+	.history-range .calendar-represent {
+		font-size: 0.7em !important;
+	}
+	.history-range .inp:nth-child(2) .calendar-dropdown {
+    	left: 0 !important;
+	}
+	.history-range .inp:nth-child(3) .calendar-represent {
+		text-align: right;
+	}
+	.history-range .inp.active .calendar-inp-cont {
+		margin-bottom: 191px !important;
+	}
+}
+

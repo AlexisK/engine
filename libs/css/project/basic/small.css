@@ -1,0 +1,15 @@
+
+small.green { color:%green; }
+small.blue { color:%blue; }
+small.red { color:%red; }
+
+small.label {
+    padding: 2px 4px;
+    background-color:%greyDark;
+    color:%white;
+    border-radius:4px;
+}
+
+small.label.green { background-color:%green; }
+small.label.blue { background-color:%blue; }
+small.label.red { background-color:%red; }

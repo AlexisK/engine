@@ -1,0 +1,122 @@
+.j-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.j-table tbody {
+    font-family: 'open_sanslight';
+    font-size: 14px;
+}
+
+.j-table thead td { 
+    background-color:%paperGrey2;
+    color:%paperGreyDark; 
+    height: 30px;
+}
+
+.j-table td {
+    //-min-width: 40px;
+    //-padding: 2px 10px;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    height: 56px;
+}
+.j-table tr td:first-child,
+.j-table thead td:first-child {
+    width: 35px;
+}
+.j-table tr:nth-child(even) td {
+    background-color:%paperGrey6;
+}
+
+.j-table td > span {
+    font-size: 12px;
+    word-break: break-all;
+}
+
+.j-table .asBtn {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.j-table .marker {
+    width: 14px; height: 14px;
+    margin: 8px;
+    background-color:%paperBlue;
+}
+.j-table tbody td > .mob-view {
+    display: none;
+}
+
+@media screen and (max-width: %wrapperS5) {
+    .j-table thead {
+        display: none;
+    }
+    .j-table tr > td {
+        background-color: %white !important;
+    }
+    .j-table tr:nth-child(odd) td {
+        background-color: %paperGrey2 !important;
+    }
+    .j-table tbody td {
+        height: auto;
+        display: none;
+    }
+    .j-table tbody td:nth-child(6) {
+        display: block;
+    }
+    .j-table tbody td:nth-child(6) > * {
+        display: none;
+    }
+    .j-table tbody td:nth-child(6) > .mob-view {
+        text-align: left;
+        display: block;
+        position: relative;
+    }
+    .j-table .mob-view .toLeft {
+        float:left;
+        width: 70%;
+        padding-left: 14px;
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    .j-table .mob-view .toRight {
+        float:right;
+        width: 30%;
+    }
+    .j-table .mob-view .text {
+        float: left;
+        color: %paperBlue;
+    }
+    .j-table .mob-view .icon {
+        margin-left: 5px;
+        float: left;
+        width: 10px;
+        height: auto;
+    }
+    .j-table .mob-view .asBtn {
+        cursor: pointer;
+        width: 70px;
+        height: auto;
+        text-align: left;
+        position: absolute;
+        top: 20%;
+        right: 0;
+        margin-right: 1%;
+        color: %paperBlue;
+    }
+    .j-table .mob-view .asBtn.expander {
+        width: 75px;
+    }
+    .j-table .mob-cut .marker {
+        margin: 0;
+        background-color: #1469EB;
+        position: absolute;
+        top: 40%;
+        right: 10%;
+    }
+}
+
+
+

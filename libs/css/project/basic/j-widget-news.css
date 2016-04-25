@@ -1,0 +1,27 @@
+
+.j-news > div { height: auto; }
+
+.j-all-news {
+    margin: 10px 24px 10px 0px;
+    color:%greyDark;
+}
+
+.j-bg-news { background:%white; }
+
+.j-bg-news > div { width: 100%; xbackground:%white; }
+
+.j-bg-news .col-3 { border-right: 1px dotted %greyDark; }
+.j-bg-news .col-3:last-child { border-right: none; }
+
+.j-bg-news .col-3 > * { padding: 0px 20px; }
+.j-bg-news .col-3 > .news-content { height: 82px; }
+.j-bg-news .col-3 > .news-content > * { color:%greyDark; }
+.j-bg-news .col-3:hover > .news-content > * { color:%blue; }
+
+.j-bg-news .news-more { right: 20px; }
+
+.j-news-date {
+    margin-top: 10px;
+    font-size: 12px;
+    color:%greyDark;
+}

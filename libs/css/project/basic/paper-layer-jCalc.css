@@ -1,0 +1,239 @@
+.paper-layer .jCalc>.detailedCalc>.lft, .paper-layer .jCalc>.detailedCalc>.rgt { width: 297px; }
+.paper-layer .jCalc>.detailedCalc>.rgt { margin-left: 64px; }
+
+.paper-layer .jCalc>.detailedCalc>*>div { margin: 5px 0px; }
+.paper-layer .jCalc>.detailedCalc>*>div.txt {
+    margin-top: 15px;
+    color:%paperGrey;
+    font-size: 16px;
+}
+
+.paper-layer .jCalc .inp-block {
+    height: 30px;
+    max-width: none!important; border: none;
+    border-radius: 0px;
+}
+.paper-layer .jCalc .inp-block>.inp>* {
+    height: 30px;
+    padding: 0px 20px;
+    font-size: 18px;
+    color:%paperGreyDark;
+    border: 1px solid %paperBorderGreyDefault;
+}
+.paper-layer .jCalc .inp-block .asBtn + .inp > * {
+    border-width: 1px 0 1px 1px;
+}
+.paper-layer .jCalc .inp-block>.inp>*:focus {
+    border-color:%paperBlue;
+    color:%paperBlue;
+}
+
+.paper-layer .jCalc .inp-block>.inp>.prefix {
+    width: 30%;
+    float: left;
+}
+.paper-layer .jCalc .inp-block>.inp>.prefix + * {
+    width: 65%;
+    margin-left: 35%;
+}
+
+.paper-layer .jCalc .inp-block .dateinput-def {
+    padding: 0px;
+    border: none;
+}
+
+.paper-layer .jDropdown .jBody > .fa {
+    transition: all .0s;
+}
+
+.paper-layer .jDropdown .jHead {
+    min-height: 28px!important;
+    line-height: 28px!important;
+}
+
+.paper-layer .jDropdown .jHead {
+    padding-right: 20px;
+    background-size: 9.8px 8.5px;
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+.paper-layer .jDropdown .jHead.hasOptions {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAgMTAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwb2x5Z29uIGZpbGw9IiNiNGI0YjQiIHBvaW50cz0iOS45LDAuOCA1LDUuNyAwLjEsMC44IDAuMSw0LjMgNSw5LjIgOS45LDQuMyAiLz48L2c+PGc+PHBvbHlnb24gZmlsbD0iI2I0YjRiNCIgcG9pbnRzPSI5LjksMC44IDUsNS43IDAuMSwwLjggMC4xLDQuMyA1LDkuMiA5LjksNC4zICIvPjwvZz48L2c+PC9zdmc+);
+}
+.paper-layer .isValid .jDropdown .jHead.hasOptions {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAgMTAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwb2x5Z29uIGZpbGw9IiMwMENDMjIiIHBvaW50cz0iOS45LDAuOCA1LDUuNyAwLjEsMC44IDAuMSw0LjMgNSw5LjIgOS45LDQuMyAiLz48L2c+PGc+PHBvbHlnb24gZmlsbD0iIzAwQ0MyMiIgcG9pbnRzPSI5LjksMC44IDUsNS43IDAuMSwwLjggMC4xLDQuMyA1LDkuMiA5LjksNC4zICIvPjwvZz48L2c+PC9zdmc+);
+}
+.paper-layer .jDropdown.active .jHead.hasOptions,
+.paper-layer .jDropdown:hover .jHead.hasOptions {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAxMCAxMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgMTAgMTAiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxnPjxwb2x5Z29uIGZpbGw9IiMzRTY5RTYiIHBvaW50cz0iOS45LDAuOCA1LDUuNyAwLjEsMC44IDAuMSw0LjMgNSw5LjIgOS45LDQuMyAiLz48L2c+PGc+PHBvbHlnb24gZmlsbD0iIzNFNjlFNiIgcG9pbnRzPSI5LjksMC44IDUsNS43IDAuMSwwLjggMC4xLDQuMyA1LDkuMiA5LjksNC4zICIvPjwvZz48L2c+PC9zdmc+);
+}
+.paper-layer .jCalc .inp-block .dateinput-def .jDropdown {
+    border: 1px solid %paperBorderGreyDefault!important;
+}
+.paper-layer .isValid .jDropdown { border-color:%paperGreen!important; }
+.paper-layer .notValid .jDropdown { border-color:%paperRed!important; }
+.paper-layer .jCalc .inp-block .dateinput-def .jDropdown:nth-of-type(1) { width: 24%; margin-right: 5%; }
+.paper-layer .jCalc .inp-block .dateinput-def .jDropdown:nth-of-type(2) { width: 42%; margin-right: 5%; }
+.paper-layer .jCalc .inp-block .dateinput-def .jDropdown:nth-of-type(3) { width: 24%; }
+
+
+.paper-layer .jDropdown:hover,
+.paper-layer .jDropdown>.jBody>div:hover{ background-color:%paperWhite; color:%paperBlue; }
+
+.paper-layer .jDropdown>.jBody {
+    top: 28px!important; right: -1px; left: -1px;
+    box-shadow: none;
+    border: 0px solid %paperGreyLight;
+}
+.paper-layer .jDropdown.active>.jBody {
+    border-width: 0px 1px 1px 1px;
+}
+.paper-layer .jDropdown>.jBody>div {
+    padding: 0px 10px;
+    text-align: left;
+    line-height: 25px;
+    font-size: 14px;
+}
+.paper-layer .jDropdown.active>.jBody>div { border-bottom: none; }
+
+.paper-layer .jDropdown>.jHead { padding: 0px; }
+.paper-layer .jDropdown>.jHead>div { text-align: left; font-size: 14px; }
+
+.paper-layer .jDropdown .jFilt {
+    padding: 0px 0px 0px 10px;
+}
+
+
+
+.paper-layer .jCalc .inp-block .dateinput-def .jDropdown .jHead {
+    margin: 0px 10px;
+}
+
+
+.paper-layer .isValid,
+.paper-layer .jCalc *.isValid {
+    background:%paperWhite!important;
+    background-color:%paperWhite!important;
+    color:%paperGreen!important;
+    border-color:%paperGreen!important;
+}
+.paper-layer .notValid,
+.paper-layer .jCalc *.notValid {
+    background:%paperWhite!important;
+    background-color:%paperWhite!important;
+    color:%paperRed!important;
+    border-color:%paperRed!important;
+}
+
+.paper-layer .jCalc>.detailedCalc>.sum {
+    max-width: none;
+}
+
+.paper-layer .jCalc>.detailedCalc>.sum>a,
+.paper-layer .jCalc>.detailedCalc .submit {
+    display: block;
+    margin: 28px auto 34px;
+    min-height: 37px;
+    line-height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    
+    width: 270px;
+    float: left;
+    border-radius: 0px;
+    background-color: %paperWhite;
+    color:%paperBlue;
+    font-family: 'open_sansextrabold';
+    text-align: center;
+    box-shadow: 0px 0px 9px 0px %paperGreyDark;
+}
+
+.paper-layer .jCalc>.detailedCalc>.sum>a:hover,
+.paper-layer .jCalc>.detailedCalc>.sum>a.active,
+.paper-layer .jCalc>.detailedCalc .submit:hover,
+.paper-layer .jCalc>.detailedCalc .submit.active {
+    background-color:%paperBlue;
+    color:%white;
+}
+
+.paper-layer .jCalc>.detailedCalc>.sum>a:nth-of-type(2n),
+.paper-layer .jCalc>.detailedCalc>.sum>.submit:nth-of-type(2n),
+.paper-layer .jCalc>.detailedCalc>.sum>a:nth-of-type(1n) + .submit {
+    float: right;
+}
+
+
+.paper-layer .jCalc .inp-block > .inp { position: relative; }
+
+.paper-layer .jCalc .inp-block > .asBtn {
+    position: relative;
+    float: right;
+    width: 114px;
+    height: 30px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'open_sansextrabold';
+    font-size: 10.8px;
+    color: %paperBlue;
+    box-shadow: 0px 0px 6px 0px %paperGreyDark;
+    z-index: 11;
+}
+
+.paper-layer .jCalc .inp-block > .asBtn + .inp {
+    margin-right: 114px;
+}
+
+
+.paper-layer .jBool {
+    width: 33px; height:11px;
+    margin: 4px 0px;
+    background-color:%paperWhite;
+    border-radius: 0px;
+    border: 0px;
+    box-shadow: 0px 0px 4px %paperGrey;
+}
+.paper-layer .jBool > div {
+    width: 11px; height: 11px;
+    top: 0px; left: 0px;
+    background-color:%paperGrey;
+    border-radius: 0px;
+}
+.paper-layer .jBool.active > div {
+    left: 22px;
+    background-color:%paperBlue;
+}
+.paper-layer .detailedCalc .mk_text_cont {
+    font-family: 'open_sanslight' !important;
+}
+.paper-layer .detailedCalc .mk_text_cont h2 {
+    text-transform: none;
+}
+
+@media screen and (max-width: %wrapperS5) {
+    .paper-layer .jCalc > .detailedCalc > .sum {
+        width: 100%;
+    }
+    .paper-layer .jCalc > .detailedCalc > .sum > * {
+        float: none !important;
+        margin: 40px auto 35px !important;
+    }
+    .paper-layer .jCalc > .detailedCalc .mk_text_cont .text-container {
+        margin-top: 0px !important;
+    }
+    .paper-layer .jCalc > .detailedCalc .mk_text_cont h2 {
+        margin-top: 0px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

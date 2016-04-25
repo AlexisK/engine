@@ -1,0 +1,103 @@
+.ticket-page {}
+
+.ticket-messages {}
+
+.ticket-message {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color:%white;
+}
+
+.ticket-message:first-child {
+    padding: 0px;
+    background-color:transparent;
+}
+
+.ticket-message .author-block {
+    margin-bottom: 3px; padding-bottom: 3px;
+    border-bottom: 2px solid %greyDark;
+}
+
+.ticket-message .author-block > .pr_datetime {
+    font-weight: bold;
+}
+
+
+
+.ticketitem {
+    display: block;
+    margin: 0px 10px 10px 10px;
+    padding: 0px 0px 8px 0px;
+    border-bottom: 1px solid %grey;
+}
+
+.ticketitem > .time { float: right; font-size: 14px; }
+.ticketitem > .pr_ticketstatus { float: left; margin-right: 20px; }
+.ticketitem > .text {
+    min-height: 20px;
+    margin: 0px 140px 0px 100px;
+}
+
+
+
+.ticketadditem > p,
+.ticketadditem > .asBtn {
+    padding: 10px 0px;
+    color: %black;
+}
+
+.ticketadditem > .asBtn.iconed { width: 40px; height: 40px; padding: 10px; }
+.ticketadditem > .asBtn.iconed svg { max-width: 20px; max-height: 20px; }
+
+.ticketadditem > input,
+.ticketadditem > textarea,
+.ticketadditem .jDropdown {
+    display: block;
+    width: 100%; max-width: 100%;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    border: 1px solid %grey;
+    background-color:%white;
+}
+.ticketadditem > textarea { height: 300px; }
+
+.ticketadditem > .submit {
+    background:%blue;
+    color:%white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.ticketadditem > .submit:hover {
+    background:%greyDark;
+}
+
+
+
+
+.mk_ticket_supblock { width: 200px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'open_sansbold';
+    src: url('/static/font/OpenSans-Bold-webfont.eot');
+    src: url('/static/font/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/OpenSans-Bold-webfont.woff2') format('woff2'),
+         url('/static/font/OpenSans-Bold-webfont.woff') format('woff'),
+         url('/static/font/OpenSans-Bold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansextrabold';
+    src: url('/static/font/OpenSans-ExtraBold-webfont.eot');
+    src: url('/static/font/OpenSans-ExtraBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/OpenSans-ExtraBold-webfont.woff2') format('woff2'),
+         url('/static/font/OpenSans-ExtraBold-webfont.woff') format('woff'),
+         url('/static/font/OpenSans-ExtraBold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('/static/font/OpenSans-Regular-webfont.eot');
+    src: url('/static/font/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/OpenSans-Regular-webfont.woff2') format('woff2'),
+         url('/static/font/OpenSans-Regular-webfont.woff') format('woff'),
+         url('/static/font/OpenSans-Regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('/static/font/OpenSans-Semibold-webfont.eot');
+    src: url('/static/font/OpenSans-Semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/OpenSans-Semibold-webfont.woff2') format('woff2'),
+         url('/static/font/OpenSans-Semibold-webfont.woff') format('woff'),
+         url('/static/font/OpenSans-Semibold-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('/static/font/OpenSans-Light-webfont.eot');
+    src: url('/static/font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/OpenSans-Light-webfont.woff2') format('woff2'),
+         url('/static/font/OpenSans-Light-webfont.woff') format('woff'),
+         url('/static/font/OpenSans-Light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('/static/font/roboto-regular-webfont.eot');
+    src: url('/static/font/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/roboto-regular-webfont.woff2') format('woff2'),
+         url('/static/font/roboto-regular-webfont.woff') format('woff'),
+         url('/static/font/roboto-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotolight';
+    src: url('/static/font/roboto-light-webfont.eot');
+    src: url('/static/font/roboto-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/roboto-light-webfont.woff2') format('woff2'),
+         url('/static/font/roboto-light-webfont.woff') format('woff'),
+         url('/static/font/roboto-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'robotoblack';
+    src: url('/static/font/roboto-black-webfont.eot');
+    src: url('/static/font/roboto-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/static/font/roboto-black-webfont.woff2') format('woff2'),
+         url('/static/font/roboto-black-webfont.woff') format('woff'),
+         url('/static/font/roboto-black-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100%;
+}
+
+.theme {
+    color:%colMain;
+    overflow-x: hidden;
+}
+
+
+.pr_yaad {
+    width: 100%;
+    min-height: 1px;
+}
+
+
+
+.jBigModal {
+    width: 100%;
+    max-width: 950px;
+}
+
+
+
+
+
+.calc-container .col-3 .sum-input {
+    width: 145px;
+    z-index: 5!important;
+}
+
+
+.calc-container .col-3 .sum-input[disabled] {
+    color:%greyDark;
+}

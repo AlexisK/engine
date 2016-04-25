@@ -1,0 +1,73 @@
+
+//-.exch-table .rate { width: 100px; }
+//-.exch-table .rate.wide { width: 200px; }
+
+.exch-table .rate.wide { min-width: 220px; }
+
+.exch-table .rate > div {
+    height: 31px;
+    margin-left: -10px;
+    padding: 2px 0px 2px 43px;
+    background-position: 0px 50%;
+    background-repeat: no-repeat;
+}
+.exch-table .rate.wide > div { margin-left: 100px; }
+
+.exch-table .rate > input {
+    float: left;
+    display: block;
+    width: 100px;
+    padding: 7px 5px;
+    background-color:%greyLight;
+    border: 1px solid %grey;
+}
+
+.exch-table .cur {
+    font-weight: bold;
+    background-color:%bgWhite;
+}
+.exch-table .bl { color:%black; }
+
+
+
+
+.exch-table .c_usd,
+.exch-table .c_wmz { color:%green; }
+.exch-table .c_eur { color:%blue; }
+.exch-table .c_uah { color:%orange; }
+.exch-table .c_rub,
+.exch-table .c_rur,
+.exch-table .c_wmr { color:%red; }
+
+
+
+.exch-table .token {
+    min-width: 85px;
+    font-size: 8px;
+    word-break: break-all;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

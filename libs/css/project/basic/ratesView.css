@@ -1,0 +1,52 @@
+.ratesView {}
+
+.exchange_rateline {
+    height: 31px;
+    background-size: 20px 20px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.exchange_rateline > * {
+    width: 50%; height: 31px; line-height: 31px;
+    float: left;
+}
+
+
+.exchange_rateline > * > * { float: right; }
+.exchange_rateline > *:last-child > * { float: left; }
+
+.exchange_rateline > * > img { width: 42px; }
+.exchange_rateline > *:first-child > img { margin-right: 5%; }
+.exchange_rateline > *:last-child > img { margin-left: 5%; }
+.exchange_rateline > * > .sum {
+    width: 100px;
+    text-align: center;
+    font-weight: bold;
+    color:%black;
+}
+
+
+
+
+@media (max-width:%wrapperS5) {
+    .exchange_rateline > * > img { display: none; }
+}
+
+@media (max-width:%wrapperS6) {
+    .exchange_rateline { font-size: 14px; }
+    .exchange_rateline > * > .sum { width: 90px; }
+}
+
+@media (max-width:%wrapperS7) {
+    .exchange_rateline {
+        height: 62px;
+        margin-bottom: 20px;
+        background-size: 0px 0px;
+    }
+    .exchange_rateline > * { width: 100%; }
+    .exchange_rateline > * > * { float: left; }
+    .exchange_rateline > * > img { display: block; margin-right: 0%!important; margin-left: 10%!important; }
+}
+
+

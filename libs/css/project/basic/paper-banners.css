@@ -1,0 +1,70 @@
+.jrow.pr_banners > .url-cols > .col:first-child {
+	width: 22%;
+}
+.jrow.pr_banners > .url-cols > .col:nth-child(2) {
+	width: 78%;
+}
+.jrow.pr_banners > .url-cols input[type="text"] {
+	color: %paperBlue;
+}
+.jrow.pr_banners > .col-container > col:nth-child(2) {
+	margin-top: 40px;
+}
+.jrow.pr_banners > .url-cols .inp-block {
+	margin-top: 0px;	
+}
+.jrow.pr_banners .banner-size-dropdown {
+	font-family: 'open_sanslight';
+}
+.jrow.pr_banners .banner-size-dropdown.active .jBody {
+	border: 1px solid %paperBorderGreyDefault;
+	border-width: 0px 1px 1px;
+}
+.jrow.pr_banners .switcher-wrap {
+	width: 33.33%;
+    float: left;
+    font-size: 14px;
+    font-family: 'open_sanslight'
+}
+.jrow.pr_banners .switcher-wrap .jSwitcher {
+	padding-right: 10px;
+}
+.jrow.pr_banners .mk_banners_variant_select {
+	padding-top: 12px;
+}
+.jrow.pr_banners .mk_banner_url,
+.jrow.pr_banners .mk_banner_html {
+	color: %paperBlue;
+	font-size: 14px;
+	font-family: 'open_sanslight';
+}
+.jrow.pr_banners .mk_preview {
+	position: relative;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.jrow.pr_banners .mk_preview .img-preview {
+	position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    text-indent: 0;
+    display: block;
+    margin: auto;
+    object-fit: contain;
+}
+.jrow.pr_banners .mk_blocked_notif {
+	margin-top: 20px;
+	font-size: 14px;
+}
+@media screen and (max-width: %wrapperS5) {
+	.jrow.pr_banners {
+		display: none;
+	}
+}
